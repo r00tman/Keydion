@@ -7,7 +7,7 @@
 ## Description
 
 Tired of bad default virtual keyboards in your DAW? Now you can play full THREE OCTAVES ERGONOMICALLY only using your computer keyboard (and learn accordion at the same time).
-Keydion turns your computer keyboard into a Chromatic Button Accordion controller, sending virtual MIDI signals.
+Keydion turns your computer keyboard into a Chromatic Button Accordion controller, sending virtual MIDI messages.
 At the moment, it assumes QWERTY layout and simulates C-Griff accordion layout.
 
 This project is heavily inspired by [Anatole Muster](https://www.youtube.com/shorts/1kVAUZjotnE) videos.
@@ -43,13 +43,15 @@ git clone https://github.com/r00tman/keydion.git
 
 ## Supported Platforms
 
-- macOS (requires Swift and Xcode for building)
+- macOS (requires Xcode for building)
 
 ## Next Steps
 
 - Better UI controls, default Stepper is *horrible to use*. You can't enter stuff as text, you can't drag it. Only click and hold +/- buttons.
 - Cross-platform Rust+gtk+midir rewrite?
 - Make app title, repo name, folder names and etc consistent with Keydion branding.
+- Add B-Griff? I chose C-Griff consciously after figuring that there are much fewer learning materials and support for B-Griff overall. Still, despite being just mirror images of each other, both C-Griff and B-Griff are used widely. So, let's add B-Griff too.
+- Note names instead of just MIDI note numbers in UI? As for myself, I play by ear and through muscle memory, hence I don't really need that. But I'm sure that for some people, it'd make it easier to use and learn the instrument. 
 
 ## Other cool stuff
 If you liked this repo, then you probably would love my other repo too: [Turbopad](https://github.com/r00tman/Turbopad)!
