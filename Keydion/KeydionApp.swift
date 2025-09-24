@@ -151,7 +151,6 @@ struct ContentView: View {
     @State private var channel: Int = 0 // 0..15 displayed as 1..16
     @State private var velocity: Int = 30
     @State private var active = Set<Int>()
-    @State private var showHelp = true
     
     // MARK: - C-griff mapping
     let cGriffRows: [[Character]] = [
@@ -264,15 +263,6 @@ struct ContentView: View {
             
             HStack {
                 Text("Tip: click a button or type keys. Click the black area to ensure focus.")
-                Spacer()
-                Button("Show/Hide Help") { showHelp.toggle() }
-            }
-            
-            if showHelp {
-                VStack(alignment: .leading) {
-                    Text("Mapping (first 33 keys) — QWERTY characters:").font(.subheadline).bold()
-                }
-                .padding(.top, 6)
             }
             
             // invisible key capture area
