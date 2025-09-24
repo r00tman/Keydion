@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 # run from the archive directory to create a release .dmg from .app
+# needs `brew install create-dmg`
+
 create-dmg \
   --window-pos 200 120 \
   --icon "Keydion.app" 22 111 \

@@ -48,7 +48,7 @@ git clone https://github.com/r00tman/keydion.git
 
 ## Next Steps
 
-- Package as a GitHub release
+- ~~Package as a GitHub release~~
 - Better UI controls, default Stepper is *horrible to use*. You can't enter stuff as text, you can't drag it. Only click and hold +/- buttons.
 - Cross-platform Rust+gtk+midir rewrite?
 - Make app title, repo name, folder names and etc consistent with Keydion branding.
