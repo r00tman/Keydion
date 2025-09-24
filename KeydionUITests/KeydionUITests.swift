@@ -1,13 +1,13 @@
 //
-//  turbokeydionUITests.swift
-//  turbokeydionUITests
+//  KeydionUITests.swift
+//  KeydionUITests
 //
 //  Created by Viktor Rudnev on 22/09/2025.
 //
 
 import XCTest
 
-final class turbokeydionUITests: XCTestCase {
+final class KeydionUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

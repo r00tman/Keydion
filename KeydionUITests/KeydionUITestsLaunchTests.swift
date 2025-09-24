@@ -1,13 +1,13 @@
 //
-//  turbokeydionUITestsLaunchTests.swift
-//  turbokeydionUITests
+//  KeydionUITestsLaunchTests.swift
+//  KeydionUITests
 //
 //  Created by Viktor Rudnev on 22/09/2025.
 //
 
 import XCTest
 
-final class turbokeydionUITestsLaunchTests: XCTestCase {
+final class KeydionUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

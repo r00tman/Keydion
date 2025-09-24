@@ -1,6 +1,6 @@
 //
-//  turbokeydionApp.swift
-//  turbokeydion
+//  KeydionApp.swift
+//  Keydion
 //
 //  Created by Viktor Rudnev on 22/09/2025.
 //

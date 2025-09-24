@@ -12,37 +12,37 @@
 			containerPortal = 7B894A162E81410A005331D0 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7B894A1D2E81410A005331D0;
-			remoteInfo = turbokeydion;
+			remoteInfo = Keydion;
 		};
 		7B894A3A2E81410C005331D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 7B894A162E81410A005331D0 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7B894A1D2E81410A005331D0;
-			remoteInfo = turbokeydion;
+			remoteInfo = Keydion;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7B894A1E2E81410A005331D0 /* turbokeydion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = turbokeydion.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B894A2F2E81410C005331D0 /* turbokeydionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = turbokeydionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7B894A392E81410C005331D0 /* turbokeydionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = turbokeydionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B894A1E2E81410A005331D0 /* Keydion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keydion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B894A2F2E81410C005331D0 /* KeydionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeydionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B894A392E81410C005331D0 /* KeydionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeydionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		7B894A202E81410A005331D0 /* turbokeydion */ = {
+		7B894A202E81410A005331D0 /* Keydion */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = turbokeydion;
+			path = Keydion;
 			sourceTree = "<group>";
 		};
-		7B894A322E81410C005331D0 /* turbokeydionTests */ = {
+		7B894A322E81410C005331D0 /* KeydionTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = turbokeydionTests;
+			path = KeydionTests;
 			sourceTree = "<group>";
 		};
-		7B894A3C2E81410C005331D0 /* turbokeydionUITests */ = {
+		7B894A3C2E81410C005331D0 /* KeydionUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = turbokeydionUITests;
+			path = KeydionUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		7B894A152E81410A005331D0 = {
 			isa = PBXGroup;
 			children = (
-				7B894A202E81410A005331D0 /* turbokeydion */,
-				7B894A322E81410C005331D0 /* turbokeydionTests */,
-				7B894A3C2E81410C005331D0 /* turbokeydionUITests */,
+				7B894A202E81410A005331D0 /* Keydion */,
+				7B894A322E81410C005331D0 /* KeydionTests */,
+				7B894A3C2E81410C005331D0 /* KeydionUITests */,
 				7B894A1F2E81410A005331D0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		7B894A1F2E81410A005331D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7B894A1E2E81410A005331D0 /* turbokeydion.app */,
-				7B894A2F2E81410C005331D0 /* turbokeydionTests.xctest */,
-				7B894A392E81410C005331D0 /* turbokeydionUITests.xctest */,
+				7B894A1E2E81410A005331D0 /* Keydion.app */,
+				7B894A2F2E81410C005331D0 /* KeydionTests.xctest */,
+				7B894A392E81410C005331D0 /* KeydionUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7B894A1D2E81410A005331D0 /* turbokeydion */ = {
+		7B894A1D2E81410A005331D0 /* Keydion */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B894A432E81410C005331D0 /* Build configuration list for PBXNativeTarget "turbokeydion" */;
+			buildConfigurationList = 7B894A432E81410C005331D0 /* Build configuration list for PBXNativeTarget "Keydion" */;
 			buildPhases = (
 				7B894A1A2E81410A005331D0 /* Sources */,
 				7B894A1B2E81410A005331D0 /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				7B894A202E81410A005331D0 /* turbokeydion */,
+				7B894A202E81410A005331D0 /* Keydion */,
 			);
-			name = turbokeydion;
+			name = Keydion;
 			packageProductDependencies = (
 			);
-			productName = turbokeydion;
-			productReference = 7B894A1E2E81410A005331D0 /* turbokeydion.app */;
+			productName = Keydion;
+			productReference = 7B894A1E2E81410A005331D0 /* Keydion.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7B894A2E2E81410C005331D0 /* turbokeydionTests */ = {
+		7B894A2E2E81410C005331D0 /* KeydionTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B894A462E81410C005331D0 /* Build configuration list for PBXNativeTarget "turbokeydionTests" */;
+			buildConfigurationList = 7B894A462E81410C005331D0 /* Build configuration list for PBXNativeTarget "KeydionTests" */;
 			buildPhases = (
 				7B894A2B2E81410C005331D0 /* Sources */,
 				7B894A2C2E81410C005331D0 /* Frameworks */,
@@ -131,18 +131,18 @@
 				7B894A312E81410C005331D0 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				7B894A322E81410C005331D0 /* turbokeydionTests */,
+				7B894A322E81410C005331D0 /* KeydionTests */,
 			);
-			name = turbokeydionTests;
+			name = KeydionTests;
 			packageProductDependencies = (
 			);
-			productName = turbokeydionTests;
-			productReference = 7B894A2F2E81410C005331D0 /* turbokeydionTests.xctest */;
+			productName = KeydionTests;
+			productReference = 7B894A2F2E81410C005331D0 /* KeydionTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7B894A382E81410C005331D0 /* turbokeydionUITests */ = {
+		7B894A382E81410C005331D0 /* KeydionUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B894A492E81410C005331D0 /* Build configuration list for PBXNativeTarget "turbokeydionUITests" */;
+			buildConfigurationList = 7B894A492E81410C005331D0 /* Build configuration list for PBXNativeTarget "KeydionUITests" */;
 			buildPhases = (
 				7B894A352E81410C005331D0 /* Sources */,
 				7B894A362E81410C005331D0 /* Frameworks */,
@@ -154,13 +154,13 @@
 				7B894A3B2E81410C005331D0 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				7B894A3C2E81410C005331D0 /* turbokeydionUITests */,
+				7B894A3C2E81410C005331D0 /* KeydionUITests */,
 			);
-			name = turbokeydionUITests;
+			name = KeydionUITests;
 			packageProductDependencies = (
 			);
-			productName = turbokeydionUITests;
-			productReference = 7B894A392E81410C005331D0 /* turbokeydionUITests.xctest */;
+			productName = KeydionUITests;
+			productReference = 7B894A392E81410C005331D0 /* KeydionUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7B894A192E81410A005331D0 /* Build configuration list for PBXProject "turbokeydion" */;
+			buildConfigurationList = 7B894A192E81410A005331D0 /* Build configuration list for PBXProject "Keydion" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7B894A1D2E81410A005331D0 /* turbokeydion */,
-				7B894A2E2E81410C005331D0 /* turbokeydionTests */,
-				7B894A382E81410C005331D0 /* turbokeydionUITests */,
+				7B894A1D2E81410A005331D0 /* Keydion */,
+				7B894A2E2E81410C005331D0 /* KeydionTests */,
+				7B894A382E81410C005331D0 /* KeydionUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		7B894A312E81410C005331D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7B894A1D2E81410A005331D0 /* turbokeydion */;
+			target = 7B894A1D2E81410A005331D0 /* Keydion */;
 			targetProxy = 7B894A302E81410C005331D0 /* PBXContainerItemProxy */;
 		};
 		7B894A3B2E81410C005331D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7B894A1D2E81410A005331D0 /* turbokeydion */;
+			target = 7B894A1D2E81410A005331D0 /* Keydion */;
 			targetProxy = 7B894A3A2E81410C005331D0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -392,11 +392,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = turbokeydion/turbokeydion.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Keydion/Keydion.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"turbokeydion/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Keydion/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -405,7 +405,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.r00tman.turbokeydion;
+				PRODUCT_BUNDLE_IDENTIFIER = com.r00tman.Keydion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -417,11 +417,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = turbokeydion/turbokeydion.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Keydion/Keydion.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"turbokeydion/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Keydion/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -430,7 +430,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.r00tman.turbokeydion;
+				PRODUCT_BUNDLE_IDENTIFIER = com.r00tman.Keydion;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -446,11 +446,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.7;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.r00tman.turbokeydionTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.r00tman.KeydionTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/turbokeydion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/turbokeydion";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keydion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Keydion";
 			};
 			name = Debug;
 		};
@@ -463,11 +463,11 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.7;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.r00tman.turbokeydionTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.r00tman.KeydionTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/turbokeydion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/turbokeydion";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keydion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Keydion";
 			};
 			name = Release;
 		};
@@ -478,11 +478,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.r00tman.turbokeydionUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.r00tman.KeydionUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = turbokeydion;
+				TEST_TARGET_NAME = Keydion;
 			};
 			name = Debug;
 		};
@@ -493,18 +493,18 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.r00tman.turbokeydionUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.r00tman.KeydionUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = turbokeydion;
+				TEST_TARGET_NAME = Keydion;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7B894A192E81410A005331D0 /* Build configuration list for PBXProject "turbokeydion" */ = {
+		7B894A192E81410A005331D0 /* Build configuration list for PBXProject "Keydion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B894A412E81410C005331D0 /* Debug */,
@@ -513,7 +513,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B894A432E81410C005331D0 /* Build configuration list for PBXNativeTarget "turbokeydion" */ = {
+		7B894A432E81410C005331D0 /* Build configuration list for PBXNativeTarget "Keydion" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B894A442E81410C005331D0 /* Debug */,
@@ -522,7 +522,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B894A462E81410C005331D0 /* Build configuration list for PBXNativeTarget "turbokeydionTests" */ = {
+		7B894A462E81410C005331D0 /* Build configuration list for PBXNativeTarget "KeydionTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B894A472E81410C005331D0 /* Debug */,
@@ -531,7 +531,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B894A492E81410C005331D0 /* Build configuration list for PBXNativeTarget "turbokeydionUITests" */ = {
+		7B894A492E81410C005331D0 /* Build configuration list for PBXNativeTarget "KeydionUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B894A4A2E81410C005331D0 /* Debug */,
