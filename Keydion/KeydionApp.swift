@@ -63,8 +63,8 @@ final class MidiManager: ObservableObject {
     }
     
     private func createVirtualSource() {
-        let name = "SwiftAccordion Virtual Source" as CFString
-        MIDIClientCreateWithBlock("SwiftAccordionClient" as CFString, &client) { _ in }
+        let name = "Keydion Virtual Source" as CFString
+        MIDIClientCreateWithBlock("KeydionClient" as CFString, &client) { _ in }
         let status = MIDISourceCreate(client, name, &source)
         if status == noErr {
             isReady = true
@@ -202,7 +202,7 @@ struct ContentView: View {
                     Text("Chromatic Button Accordion — QWERTY → Virtual MIDI").font(.headline)
                     HStack {
                         Text("Virtual source:").bold()
-                        Text(midi.isReady ? "SwiftAccordion Virtual Source" : "not ready")
+                        Text(midi.isReady ? "Keydion Virtual Source" : "not ready")
                         Spacer()
                         Text("Last:").bold()
                         Text(midi.lastSent).lineLimit(1).truncationMode(.middle)
