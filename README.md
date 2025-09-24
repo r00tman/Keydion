@@ -23,6 +23,7 @@ The downside is that I did this in SwiftUI for **macOS only** despite having oth
 - Sends virtual MIDI signals to software instruments
 - Simple, reliable, configurable
 - Written in Swift
+- Supports dark mode (follows system theme)
 
 ## Installation
 
