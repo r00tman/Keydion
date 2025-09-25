@@ -14,7 +14,7 @@ This project is heavily inspired by [Anatole Muster](https://www.youtube.com/sho
 I did try to find the software he used for quite some time, but it was just easier to DIY the tool myself.
 I mostly found web-based solutions, but I could not comfortably use them in my DAW for different reasons.
 
-Being a native app, **keydion** allows "it just works" MIDI integration, low latency, etc.
+Being a native app, **Keydion** allows "it just works" MIDI integration, low latency, etc.
 The downside is that I did this in SwiftUI for **macOS only** despite having other options which would have been cross-platform, e.g., Rust+gtk+midir.
 
 ## Features
@@ -29,7 +29,7 @@ The downside is that I did this in SwiftUI for **macOS only** despite having oth
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/r00tman/keydion.git
+git clone https://github.com/r00tman/Keydion.git
 ```
 2. Open the project in Xcode (macOS required).
 3. Build and run the application.
@@ -51,9 +51,10 @@ git clone https://github.com/r00tman/keydion.git
 - ~~Package as a GitHub release~~
 - Better UI controls, default Stepper is *horrible to use*. You can't enter stuff as text, you can't drag it. Only click and hold +/- buttons.
 - Cross-platform Rust+gtk+midir rewrite?
-- Make app title, repo name, folder names and etc consistent with Keydion branding.
+- ~~Make app title, repo name, folder names and etc consistent with Keydion branding.~~
 - Add B-Griff? I chose C-Griff consciously after figuring that there are much fewer learning materials and support for B-Griff overall. Still, despite being just mirror images of each other, both C-Griff and B-Griff are used widely. So, let's add B-Griff too.
-- Note names instead of just MIDI note numbers in UI? As for myself, I play by ear and through muscle memory, hence I don't really need that. But I'm sure that for some people, it'd make it easier to use and learn the instrument. 
+- Note names instead of just MIDI note numbers in UI? As for myself, I play by ear and through muscle memory, hence I don't really need that. But I'm sure that for some people, it'd make it easier to use and learn the instrument.
+- Highlight scales or at least some anchor notes? Might help a bit with remembering where stuff is.
 
 ## Other cool stuff
 If you liked this repo, then you probably would love my other repo too: [Turbopad](https://github.com/r00tman/Turbopad)!
