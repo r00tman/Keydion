@@ -42,6 +42,16 @@ struct ParamField: View {
         }
     }
 }
+func midiNoteToStr(note: UInt8) -> String  {
+    // e.g., 60 -> C4
+        
+    let notes = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"]
+    let octave = (note / 12) - 1
+    let noteName = notes[Int(note) % 12]
+
+    return "\(noteName)\(octave)"
+}
+
 
 
 // -----------------------------
@@ -78,11 +88,13 @@ final class MidiManager: ObservableObject {
     // Use MIDIReceived to send from the virtual source so other apps see it
     func sendNoteOn(channel: UInt8, note: UInt8, velocity: UInt8) {
         sendMidi(status: 0x90 | (channel & 0x0F), data1: note, data2: velocity)
-        lastSent = "Note ON ch:\(channel+1) note:\(note) vel:\(velocity)"
+        let noteName = midiNoteToStr(note: note)
+        lastSent = "Note ON ch:\(channel+1) note:\(note) (\(noteName)) vel:\(velocity)"
     }
     func sendNoteOff(channel: UInt8, note: UInt8, velocity: UInt8 = 0) {
         sendMidi(status: 0x80 | (channel & 0x0F), data1: note, data2: velocity)
-        lastSent = "Note OFF ch:\(channel+1) note:\(note)"
+        let noteName = midiNoteToStr(note: note)
+        lastSent = "Note OFF ch:\(channel+1) note:\(note) (\(noteName))"
     }
     
     private func sendMidi(status: UInt8, data1: UInt8, data2: UInt8) {
@@ -232,6 +244,8 @@ struct ContentView: View {
                                 let char = cGriffRows[rowIndex][colIndex]
                                 let noteIndex = colIndex * 3 + rowOffsets[rowIndex]
                                 let isOn = active.contains(noteIndex)
+                                let fullNoteIndex = noteOffset + noteIndex
+                                let noteName = midiNoteToStr(note: UInt8(fullNoteIndex))
                                 
                                 Button(action: {
                                     if isOn { noteOff(index: noteIndex) }
@@ -240,11 +254,13 @@ struct ContentView: View {
                                     VStack {
                                         Text(String(char))
                                             .font(.headline)
-                                        Text("\(noteOffset + noteIndex)")
+                                        Text("\(noteName)")
+                                            .font(.caption2)
+                                        Text("\(fullNoteIndex)")
                                             .font(.caption2)
                                     }
                                     .padding(6)
-                                    .frame(width: 40)
+                                    .frame(width: 40*3/2)
                                     .background(isOn ? Color.accentColor.opacity(0.9) : Color(NSColor.controlBackgroundColor))
                                     .cornerRadius(8)
                                     .overlay(RoundedRectangle(cornerRadius: 8).stroke(Color.primary.opacity(0.15)))
@@ -252,7 +268,7 @@ struct ContentView: View {
                                 .buttonStyle(PlainButtonStyle())
                             }
                         }
-                        .padding(.leading, CGFloat(rowIndex) * 12) // shift rows visually like real C-griff
+                        .padding(.leading, CGFloat(rowIndex) * 12 * 3/2) // shift rows visually like real C-griff
                     }
                 }
                 .padding(.vertical, 6)
