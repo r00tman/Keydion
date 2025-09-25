@@ -2,7 +2,7 @@
 
 <p align=center>Tired of bad and limited default virtual keyboards in your DAW?<br/> Use your laptop keyboard as a <b>Chromatic Button Accordion</b> for Virtual MIDI instead.</b><br/><b>3 octave range accessible ergonomically without any additional hardware!</b></p>
 
-<img width="1012" height="660" alt="Image" src="https://github.com/user-attachments/assets/64268c74-544c-43db-9700-6db5700a5cca" />
+<img width="1012" height="660" alt="Image" src="https://github.com/user-attachments/assets/51aaffee-88a4-42e5-a0ce-cc02f3c21d59" />
 
 ## Description
 
@@ -59,11 +59,12 @@ git clone https://github.com/r00tman/Keydion.git
 
 - ~~Package as a GitHub release~~
 - Better UI controls, default Stepper is *horrible to use*. You can't enter stuff as text, you can't drag it. Only click and hold +/- buttons.
-- Cross-platform Rust+gtk+midir rewrite?
+- Cross-platform Rust+gtk+midir rewrite? I tried to redo it with Rust+egui+midir, but egui key reporting is bad and very laggy. One of the related issues: https://github.com/emilk/egui/issues/3653. Maybe [iced](https://iced.rs) will be better?
 - ~~Make app title, repo name, folder names and etc consistent with Keydion branding.~~
 - Add B-Griff? I chose C-Griff consciously after figuring that there are much fewer learning materials and support for B-Griff overall. Still, despite being just mirror images of each other, both C-Griff and B-Griff are used widely. So, let's add B-Griff too.
-- Note names instead of just MIDI note numbers in UI? As for myself, I play by ear and through muscle memory, hence I don't really need that. But I'm sure that for some people, it'd make it easier to use and learn the instrument.
+- ~~Note names instead of just MIDI note numbers in UI? As for myself, I play by ear and through muscle memory, hence I don't really need that. But I'm sure that for some people, it'd make it easier to use and learn the instrument.~~
 - Highlight scales or at least some anchor notes? Might help a bit with remembering where stuff is.
+- Add more possible keyboard buttons? It is very annoying to have C#6 but not C6. I tried to add LShift/RShift, but it is not trivial in pre-macOS 15 API. 
 
 ## Other cool stuff
 If you liked this repo, then you probably would love my other repo too: [Turbopad](https://github.com/r00tman/Turbopad)!
