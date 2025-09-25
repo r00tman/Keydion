@@ -27,6 +27,15 @@ The downside is that I did this in SwiftUI for **macOS only** despite having oth
 
 ## Installation
 
+### From releases
+1. Download the dmg from [GitHub releases](https://github.com/r00tman/Keydion/releases).
+2. Open it.
+3. Drag **Keydion** to Applications.
+4. Try to open the app.
+5. If it complains about security, go to System Settings -> Privacy & Security, scroll down, and press "Open Anyway" for **Keydion**.
+6. If that doesn't fix it, please share the screenshot of the problem through [GitHub issues](https://github.com/r00tman/Keydion/issues).
+
+### From source
 1. Clone the repository:
 ```bash
 git clone https://github.com/r00tman/Keydion.git
